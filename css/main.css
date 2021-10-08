@@ -9687,6 +9687,10 @@ a:hover {
   text-decoration: none;
 }
 
+ul {
+  list-style: none;
+}
+
 header {
   background: #fff;
   padding: 10px 0;
@@ -9717,18 +9721,16 @@ header .container .container-2 .avatar-container i {
   font-size: 20px;
   color: #ff7f00;
 }
-
-.profile-options-modal .profile-options-list {
+header .profile-options-modal .profile-options-list {
   padding: 0;
   margin: 0;
-  list-style: none;
 }
-.profile-options-modal .profile-options-list li a {
+header .profile-options-modal .profile-options-list li a {
   display: block;
   padding: 10px 0;
   color: #495057;
 }
-.profile-options-modal .profile-options-list li a i {
+header .profile-options-modal .profile-options-list li a i {
   display: inline-block;
   width: 18px;
   text-align: center;

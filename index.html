@@ -34,35 +34,185 @@
 				</div>
 			</div>
 		</div>
+
+		<!-- Modal -->
+		<div class="modal fade profile-options-modal" id="profileOptions" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="exampleModalLabel">Modal title </h5>
+		        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      </div>
+		      <div class="modal-body">
+		        <ul class="profile-options-list">
+		        	<li>
+		        		<a href="#"><i class="fas fa-user"></i> Mi perfil</a>
+		        	</li>
+		        	<li>
+		        		<a href="#"><i class="fas fa-map-marker-alt"></i> Mis direcciones</a>
+		        	</li>
+		        	<li>
+		        		<a href="#"><i class="fas fa-credit-card"></i> Mis tarjetas</a>
+		        	</li>
+		        	<li>
+		        		<a href="#" class="text-danger"><i class="fas fa-times-circle"></i> Cerrar sesión</a>
+		        	</li>
+		        </ul>
+		      </div>
+		    </div>
+		  </div>
+		</div>
 	</header>
-   
-	<!-- Modal -->
-	<div class="modal fade profile-options-modal" id="profileOptions" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-	  <div class="modal-dialog">
-	    <div class="modal-content">
-	      <div class="modal-header">
-	        <h5 class="modal-title" id="exampleModalLabel">Modal title </h5>
-	        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-	      </div>
-	      <div class="modal-body">
-	        <ul class="profile-options-list">
-	        	<li>
-	        		<a href="#"><i class="fas fa-user"></i> Mi perfil</a>
-	        	</li>
-	        	<li>
-	        		<a href="#"><i class="fas fa-map-marker-alt"></i> Mis direcciones</a>
-	        	</li>
-	        	<li>
-	        		<a href="#"><i class="fas fa-credit-card"></i> Mis tarjetas</a>
-	        	</li>
-	        	<li>
-	        		<a href="#" class="text-danger"><i class="fas fa-times-circle"></i> Cerrar sesión</a>
-	        	</li>
-	        </ul>
-	      </div>
-	    </div>
-	  </div>
-	</div>
+	<main class="main">
+		<div class="container">
+			<div class="search-container">
+				<form>
+					<input type="text" name="searchInput" id="searchInput">
+					<button type="button" class="btn btn-primary btn-block">Buscar</button>
+				</form>	
+			</div>
+			<div class="products-list-container">
+				<ul>
+					<li>
+						<a href="#">
+							<div class="product-imge">
+								<img src="img/producto1.jpg">
+							</div>
+							<div class="produt-info">
+								<div class="product-info-inner">
+									<div class="tags">
+										<span>Descuento</span><span>Envio gratis</span>
+									</div>
+									<h3 class="product-name">Burrito especial</h3>
+									<p class="restaurant">Restaurante de prueba</p>
+									<div class="stars">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+									</div>
+								</div>
+							<div class="product-price"><s>$</s>14.99</div>
+						</div>
+						</a>	
+					</li>
+					<li>
+						<a href="#">
+							<div class="product-imge">
+								<img src="img/producto2.jpg">
+							</div>
+							<div class="produt-info">
+								<div class="product-info-inner">
+									<div class="tags">
+										<span>2x1</span><span>descuento 50%</span>
+									</div>
+									<h3 class="product-name">Postre de la casa</h3>
+									<p class="restaurant">Restaurante de prueba</p>
+									<div class="stars">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+									</div>
+								</div>
+							<div class="product-price"><s>$</s>10.99</div>
+						</div>
+						</a>	
+					</li>
+					<li>
+						<a href="#">
+							<div class="product-imge">
+								<img src="img/producto3.jpg">
+							</div>
+							<div class="produt-info">
+								<div class="product-info-inner">
+									<div class="tags">
+										<span>Descuento</span><span>Envio gratis</span>
+									</div>
+									<h3 class="product-name">Doble de Pechuga</h3>
+									<p class="restaurant">Restaurante de prueba</p>
+									<div class="stars">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+									</div>
+								</div>
+							<div class="product-price"><s>$</s>14.99</div>
+						</div>
+						</a>	
+					</li>
+					<li>
+						<a href="#">
+							<div class="product-imge">
+								<img src="img/producto4.jpg">
+							</div>
+							<div class="produt-info">
+								<div class="product-info-inner">
+									<div class="tags">
+										<span>Descuento</span><span>Envio gratis</span>
+									</div>
+									<h3 class="product-name">Dona Pink especial</h3>
+									<p class="restaurant">Restaurante de prueba</p>
+									<div class="stars">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+									</div>
+								</div>
+							<div class="product-price"><s>$</s>14.99</div>
+						</div>
+						</a>	
+					</li>
+					<li>
+						<a href="#">
+							<div class="product-imge">
+								<img src="img/producto5.jpg">
+							</div>
+							<div class="produt-info">
+								<div class="product-info-inner">
+									<div class="tags">
+										<span>Descuento </span><span>Envio gratis</span>
+									</div>
+									<h3 class="product-name">Mega Carne</h3>
+									<p class="restaurant">Restaurante de prueba</p>
+									<div class="stars">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+									</div>
+								</div>
+							<div class="product-price"><s>$</s>18.99</div>
+						</div>
+						</a>	
+					</li>
+					<li>
+						<a href="#">
+							<div class="product-imge">
+								<img src="img/producto6.jpg">
+							</div>
+							<div class="produt-info">
+								<div class="product-info-inner">
+									<div class="tags">
+										<span>Descuento</span><span> 80%</span>
+									</div>
+									<h3 class="product-name">Pollo y verduras</h3>
+									<p class="restaurant">Restaurante de prueba</p>
+									<div class="stars">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+									</div>
+								</div>
+							<div class="product-price"><s>$</s>19.99</div>
+						</div>
+						</a>	
+					</li>
+				</ul>
+			</div>
+		</div>
+	</main>
+
 
 	
 
